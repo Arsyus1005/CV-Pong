@@ -15,7 +15,7 @@ from ui.renderizador import Renderizador
 
 pygame.init()
 pantalla = pygame.display.set_mode((ANCHO, ALTO))
-pygame.display.set_caption("CamPONG o PONGCam?")
+pygame.display.set_caption("CV-PONG")
 reloj = pygame.time.Clock()
 try:
     fuente = pygame.font.Font(FUENTE_REGULAR, TAMANO_FUENTE)
@@ -121,7 +121,7 @@ def main():
 
         if en_menu:
             pantalla.fill(COLOR_FONDO)
-            titulo = renderizador.fuente_grande.render("Pong Trucho", True, (255, 255, 255))
+            titulo = renderizador.fuente_grande.render("CV-PONG", True, (255, 255, 255))
             pantalla.blit(titulo, (ANCHO // 2 - titulo.get_width() // 2, 80))
             for i, opcion in enumerate(opciones):
                 color = (255, 255, 255) if i == seleccionado else (150, 150, 150)

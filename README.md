@@ -47,8 +47,8 @@ python main.py
 
 Al iniciar aparece un menú con tres opciones:
 
-- **Teclado (W/S y UP/DOWN)**
-- **Camara (OpenCV + MediaPipe)**
+- **Modo Teclado**
+- **Modo Cámara**
 - **Salir**
 
 Usa las flechas `Arriba` / `Abajo` para moverte por el menú y `Enter` para elegir.
